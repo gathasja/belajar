@@ -1,0 +1,23 @@
+PROGRAM hitungFaktorial
+{program menghitung faktorial dari angka yang diberikan}
+
+DEKLARASI
+    int angka, faktorial, i
+
+DESKRIPSI
+    INPUT angka
+    faktorial = 1
+    
+    IF angka < 0 THEN
+        PRINT "tidak dapat menghitung faktorial angka negatif"
+    ELSE IF angka == 0 THEN
+        PRINT ("faktorial dari", angka, "adalah", faktorial)
+    ELSE
+        i = 1
+        WHILE i <= angka DO
+            faktorial = faktorial * i
+            i = i + 1
+        ENDWHILE
+        PRINT ("faktorial dari", angka, "adalah", faktorial)
+    ENDIF
+END

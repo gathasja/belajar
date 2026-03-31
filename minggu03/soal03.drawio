@@ -1,0 +1,136 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.1">
+  <diagram name="Page-1" id="n9OuFnAdVnwbgNkMqTzN">
+    <mxGraphModel dx="1915" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SDJowxeS3fJCv_AThsxS-3" edge="1" parent="1" source="SDJowxeS3fJCv_AThsxS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SDJowxeS3fJCv_AThsxS-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="START" vertex="1">
+          <mxGeometry height="80" width="120" x="90" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SDJowxeS3fJCv_AThsxS-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="INPUT angka" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-7" edge="1" parent="1" source="SDJowxeS3fJCv_AThsxS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SDJowxeS3fJCv_AThsxS-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-4" parent="1" style="whiteSpace=wrap;html=1;" value="faktorial = 1" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-9" edge="1" parent="1" source="SDJowxeS3fJCv_AThsxS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SDJowxeS3fJCv_AThsxS-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-10" connectable="0" parent="SDJowxeS3fJCv_AThsxS-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="TRUE" vertex="1">
+          <mxGeometry relative="1" x="-0.02" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-12" edge="1" parent="1" source="SDJowxeS3fJCv_AThsxS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SDJowxeS3fJCv_AThsxS-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-13" connectable="0" parent="SDJowxeS3fJCv_AThsxS-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="FALSE" vertex="1">
+          <mxGeometry relative="1" x="-0.0222" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="angka &amp;lt; 0 ?" vertex="1">
+          <mxGeometry height="80" width="80" x="420" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-38" edge="1" parent="1" source="SDJowxeS3fJCv_AThsxS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SDJowxeS3fJCv_AThsxS-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="550" />
+              <mxPoint x="1010" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-8" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="PRINT &quot;tidak dapat menghitung faktorial angka negatif&quot;" vertex="1">
+          <mxGeometry height="60" width="340" x="290" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-15" edge="1" parent="1" source="SDJowxeS3fJCv_AThsxS-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SDJowxeS3fJCv_AThsxS-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-16" connectable="0" parent="SDJowxeS3fJCv_AThsxS-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="TRUE" vertex="1">
+          <mxGeometry relative="1" x="-0.375" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-18" edge="1" parent="1" source="SDJowxeS3fJCv_AThsxS-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SDJowxeS3fJCv_AThsxS-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-19" connectable="0" parent="SDJowxeS3fJCv_AThsxS-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="FALSE" vertex="1">
+          <mxGeometry relative="1" x="-0.2577" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="angka == 0 ?" vertex="1">
+          <mxGeometry height="80" width="80" x="745" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-36" edge="1" parent="1" source="SDJowxeS3fJCv_AThsxS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SDJowxeS3fJCv_AThsxS-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="550" />
+              <mxPoint x="1010" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-14" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="PRINT (&quot;faktorial dari&quot;, angka, &quot;adalah&quot;, faktorial)" vertex="1">
+          <mxGeometry height="60" width="290" x="640" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-21" edge="1" parent="1" source="SDJowxeS3fJCv_AThsxS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SDJowxeS3fJCv_AThsxS-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-17" parent="1" style="whiteSpace=wrap;html=1;" value="i = 1" vertex="1">
+          <mxGeometry height="30" width="80" x="970" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-23" edge="1" parent="1" source="SDJowxeS3fJCv_AThsxS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SDJowxeS3fJCv_AThsxS-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-29" connectable="0" parent="SDJowxeS3fJCv_AThsxS-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="TRUE" vertex="1">
+          <mxGeometry relative="1" x="-0.0089" y="3" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-33" edge="1" parent="1" source="SDJowxeS3fJCv_AThsxS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SDJowxeS3fJCv_AThsxS-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-20" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="i &amp;lt;= angka ?" vertex="1">
+          <mxGeometry height="80" width="90" x="965" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-25" edge="1" parent="1" source="SDJowxeS3fJCv_AThsxS-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SDJowxeS3fJCv_AThsxS-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-22" parent="1" style="whiteSpace=wrap;html=1;" value="faktorial = faktorial*i" vertex="1">
+          <mxGeometry height="60" width="120" x="1110" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-28" edge="1" parent="1" source="SDJowxeS3fJCv_AThsxS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="SDJowxeS3fJCv_AThsxS-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340" y="290" />
+              <mxPoint x="1010" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-24" parent="1" style="whiteSpace=wrap;html=1;" value="i = i+1" vertex="1">
+          <mxGeometry height="60" width="120" x="1280" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-35" edge="1" parent="1" source="SDJowxeS3fJCv_AThsxS-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SDJowxeS3fJCv_AThsxS-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-32" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="PRINT (&quot;faktorial dari&quot;, angka, &quot;adalah&quot;, faktorial)" vertex="1">
+          <mxGeometry height="60" width="300" x="860" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="SDJowxeS3fJCv_AThsxS-34" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="END" vertex="1">
+          <mxGeometry height="80" width="120" x="950" y="560" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

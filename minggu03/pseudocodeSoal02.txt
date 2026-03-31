@@ -1,0 +1,24 @@
+PROGRAM menentukanAkar
+{program untuk menentukan jenis akar persamaan kuadrat berdasarkan koefisien a, b, dan c}
+
+DEKLARASI
+    int a, b, c, D
+
+DESKRIPSI
+    INPUT a, b, c
+    IF a == 0 THEN
+        PRINT "bukan persamaan kuadrat"
+    ELSE
+        D = (b**2) - (4 * a * c) 
+        IF D >= 0 THEN
+            PRINT "akar real"
+            IF D > 0 THEN
+                PRINT "akar real dan berlainan"
+            ELSE
+                PRINT "akar real dan kembar"
+            ENDIF
+        ELSE
+            PRINT "akar imajiner"
+        ENDIF
+    ENDIF
+END

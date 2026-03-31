@@ -1,0 +1,19 @@
+PROGRAM cekBilanganPrima
+{program untuk menentukan apakah sebuah angka merupakan bilangan prima atau bukan} 
+
+DEKLARASI
+   int angka, i 
+
+DESKRIPSI
+    INPUT angka
+    IF angka <= 1 THEN
+        PRINT (angka, " bukan bilangan prima")
+    ELSE
+        i = 2
+        IF angka % i == 0 THEN
+            PRINT (angka, " bukan bilangan prima")
+        ELSE
+            PRINT (angka, " merupakan bilangan prima")
+        ENDIF
+    ENDIF
+END
