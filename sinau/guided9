@@ -1,0 +1,26 @@
+#soal no. 2
+import re
+
+def findPhoneNumber(text):
+    pola = r"\b\d{4}-\d{4}-\d{4}\b"
+    
+    semuanomor = list(dict.fromkeys(re.findall(pola, text)))
+    jumlah = len(semuanomor)
+    
+    print("=============================================")
+    print(f"Total Phone Number Prof Wisnu : {jumlah}")
+    
+    if jumlah == 0:
+        print("List Phone Number : Nomor is not define")
+    elif jumlah == 1:
+        print(f"List Phone Number : {semuanomor[0]}")
+    elif jumlah == 2:
+        print(f"List Phone Number : {semuanomor[0]} and {semuanomor[1]}")
+    else:
+        awal = ", ".join(semuanomor[:-1])
+        print(f"List Phone Number : {awal}, and {semuanomor[-1]}")
+        
+    print("=============================================")
+if __name__ == "__main__":
+    text = str(input())
+    findPhoneNumber(text)
